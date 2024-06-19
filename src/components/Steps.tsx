@@ -29,7 +29,7 @@ const Steps = () => {
         const isCompleted = STEPS.slice(i + 1).some((step) =>
           pathname.endsWith(step.url)
         );
-        const imgPath = `/snake-${i + 1}.png`; // TODO SEARCH FOR 3 DIFERENT FOR EACH STEP
+        const imgPath = `/skull.png`; // TODO SEARCH FOR 3 DIFERENT FOR EACH STEP
 
         return (
           <li
